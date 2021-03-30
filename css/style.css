@@ -86,46 +86,35 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-  /*aside, section{
-    height: 200px;
-  }
+  /*-------------------composant-------------------------------------*/
 
-  aside{
-    background-color: red;
-  }
 
-  section{
-    background-color: blue;
-  }
-  nav{
-    background-color: green;
-  }
-
-  @media(min-width: 992px){
-    nav{
-      height: 200px;
-    }
-  }
-  */
-
-  aside, section {
-    height: 200px;
+  .color {
+    width: 150px;
+    height: 150px;
+    margin: 1em;
   }
   
-  article {
+  #colorsContainer {
+    display: flex;
   }
   
-  aside {
-    background-color: red;
+  #choosenColor {
+    border: 2px solid black;
   }
-  
-  section {
-    background-color: blue;
+  .color{
+    width: 150px;
+    height: 150px;
+    margin: 1em;
+    border: 2px solid black;
+
   }
-  
-  article {
-    background-color: green;
-  }
+
+
+
+
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
