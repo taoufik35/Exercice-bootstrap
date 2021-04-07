@@ -6,6 +6,10 @@ var slideshowContainer;
 
 
 
+L'événement Load survient lorsque la page a fini de se charger.
+ A l'inverse, Unload survient lorsque l'utilisateur quitte la page.
+
+quant la page est charger execute la fonction anonyme et le lui passe un fonction nommer
 
 window.addEventListener("load",function() {
     showSlides(slideIndex);
@@ -76,10 +80,11 @@ function showSlides(n){
    // Ajouter "active" sur le point cliqué
   dots[slideIndex-1].className += " action";
 }
-
+Les fonctions fléchées nous permettent d'écrire une syntaxe de fonction plus courte
 pause = () => {
   clearInterval(myTimer);
 }
+
 
 resume = () =>{
   clearInterval(myTimer);
